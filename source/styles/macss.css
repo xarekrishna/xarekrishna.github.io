@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body{
+    font-family: Michroma, serif;
+    background: linear-gradient(180deg, #010003 0%, #616164 100%);
+}
+p {
+    color: #ccc9c9;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(172, 184, 184);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(112, 112, 121) ;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler{
+    background-color: rgb(203, 203, 252) ; ;
+}
+
+.sidebar {
+    color: rgb(170, 175, 174);
+    background: linear-gradient(270deg, #2f2642 0%, #323233 100%);
+}
+
+
+.card {
+    background: linear-gradient(180deg, #010003 0%, #c0c1be 100%);
+}
+
+.btn {
+    background: linear-gradient(200deg, #52505a 0%, #2b2b2f 100%);
+    border: none;
+    color: #969696;
+}
+
+.card a{
+    text-decoration: none;
+    color: #25242b;
+}
+.row {
+padding-right: 10px;
+}
+
+.slide-text,.footer-text {
+    color: #c0bec5;
+    margin: auto auto;
+}
+ footer {
+    background: linear-gradient(180deg, #3e3c41 0%, #52534e 100%);
+ }
+ .media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.call-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 0 50%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+a.btn.btn-primary {
+    color: #98969c;
+}
+a.btn.btn-primary:hover {
+    color: #e7e6ec;
+}
+@media (max-width:755px){
+  .carousel-indicators {
+    display: none;
+  }  
+}
